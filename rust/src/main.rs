@@ -182,6 +182,6 @@ fn main() {
 	let elapsed = now.elapsed();
 	println!("\n# RESULT #");
 	println!("Time elapsed: {}.{:06}", elapsed.as_secs(), elapsed.subsec_micros());
-	println!("Grand Sum:{}", result);
+	println!("Grand Sum: {}", result);
 }
 

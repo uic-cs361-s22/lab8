@@ -172,7 +172,7 @@ int main(int argc, char **argv){
 	timersub(&tval_after, &tval_before, &tval_result);
 	printf("\n# RESULT #\n");
 	printf("Time elapsed: %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
-	printf("Grand Sum:%lld\n",grand_sum);
+	printf("Grand Sum: %lld\n",grand_sum);
 	
 	return 0;
 }
