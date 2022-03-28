@@ -20,6 +20,8 @@ run_program_over_threads() {
   tmp_file="tmp_out"
   echo -e "Threads\tRuntime\tSum" > $out_file
 
+  # loops over threads from 1 to 8, with a step of 1
+  # TODO: change the thread count depending on the cores available in your system
   for t in {1..8}
   do
     echo -e "\nRunning for $t thread(s):-"
